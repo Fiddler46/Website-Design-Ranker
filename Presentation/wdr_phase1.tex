@@ -136,6 +136,21 @@
 				\item For each parameter met, a website will obtain a mark.
 				\item Once all parameters have been checked, the website receieves an overall score (the sum of all marks) that ranks its design.
 					\end{itemize}	
+		\end{frame}
+	\begin{frame}{Algorithm}
+		\begin{enumerate}
+			\item Start
+			\item Using a website scraper to accept the various website addresses
+			\item Scraping through the source code of each website via CSS files
+			\item Find the hex codes of all elements of the website and count them with a count variable
+			\item If count == 0
+				\item [(4.1)] Give mark as 0
+			\item else if count > 5
+				\item [(5.1)] Give mark as 0
+			\item else if count <= 5
+				\item [(6.1)] Give mark as 1
+			\item Stop
+		\end{enumerate}}
 	\end{frame}
 	\begin{frame}{Conclusion}
 		\begin{itemize}
