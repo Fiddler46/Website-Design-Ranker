@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.16)  4 OCT 2019 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.16)  4 OCT 2019 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,8 +850,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-)
-No file wdr_phase1.nav.
+) (./wdr_phase1.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 13.
@@ -872,7 +871,7 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [7
 
 ]
-<image/gpa.png, id=195, 381.425pt x 238.8925pt>
+<image/gpa.png, id=197, 381.425pt x 238.8925pt>
 File: image/gpa.png Graphic file (type png)
 <use image/gpa.png>
 Package pdftex.def Info: image/gpa.png  used on input line 106.
@@ -956,10 +955,10 @@ Package rerunfilecheck Info: File `wdr_phase1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17464 strings out of 492623
- 328983 string characters out of 6135669
+ 17499 strings out of 492623
+ 329268 string characters out of 6135669
  407063 words of memory out of 5000000
- 20922 multiletter control sequences out of 15000+600000
+ 20955 multiletter control sequences out of 15000+600000
  64630 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,804b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -967,7 +966,7 @@ Here is how much of TeX's memory you used:
 nts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lms
 s12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texm
 f-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on wdr_phase1.pdf (14 pages, 122750 bytes).
+Output written on wdr_phase1.pdf (14 pages, 122948 bytes).
 PDF statistics:
  399 PDF objects out of 1000 (max. 8388607)
  367 compressed objects within 4 object streams
