@@ -1,3 +1,16 @@
+<<<<<<< urls.txt
+www.amu.ac.in
+www.aiims.edu/
+www.fisat.ac.in
+www.cet.ac.in
+www.flipkart.com
+www.facebook.com
+www.manoramaonline.com
+www.mathrubhumi.com
+www.youtube.com
+www.amazon.com
+www.opera.com
+www.atlassian.com
 https://slickdeals.net/
 https://forvo.com/
 https://twitter.com/
@@ -10,3 +23,4 @@ https://www.reddit.com/
 https://www.spacejam.com/archive/spacejam/movie/jam.htm
 https://www.disney.com/
 https://www.airtel.in/
+>>>>>>> urls.txt
