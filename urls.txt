@@ -1,13 +1,26 @@
-1.	www.amu.ac.in
-2.	www.aiims.edu/
-3.	www.fisat.ac.in
-4.	www.cet.ac.in
-5.	www.flipkart.com
-6.	www.facebook.com
-7.	www.manoramaonline.com
-8.	www.mathrubhumi.com
-9.	www.youtube.com
-10.	www.amazon.com
-11.	www.opera.com
-12.	www.twitter.com
-13.	www.atlassian.com
+<<<<<<< urls.txt
+www.amu.ac.in
+www.aiims.edu/
+www.fisat.ac.in
+www.cet.ac.in
+www.flipkart.com
+www.facebook.com
+www.manoramaonline.com
+www.mathrubhumi.com
+www.youtube.com
+www.amazon.com
+www.opera.com
+www.atlassian.com
+https://slickdeals.net/
+https://forvo.com/
+https://twitter.com/
+https://www.amazon.in/
+https://www.nytimes.com/
+https://www.forbes.com
+https://imgur.com/
+https://www.tumblr.com/
+https://www.reddit.com/
+https://www.spacejam.com/archive/spacejam/movie/jam.htm
+https://www.disney.com/
+https://www.airtel.in/
+>>>>>>> urls.txt
