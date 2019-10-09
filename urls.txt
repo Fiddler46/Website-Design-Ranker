@@ -7,3 +7,7 @@
 7.	www.manoramaonline.com
 8.	www.mathrubhumi.com
 9.	www.youtube.com
+10.	www.amazon.com
+11.	www.opera.com
+12.	www.twitter.com
+13.	www.atlassian.com
