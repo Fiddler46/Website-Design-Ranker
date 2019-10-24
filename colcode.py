@@ -1,8 +1,8 @@
 import re
 with open('style.css') as f:
     file_contents = f.read()
-    regex = r'/#([a-fA-F0-9]){3}(([a-fA-F0-9]){3})?\b/'
+    regex = r':?.(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})'
     result = re.findall(regex, file_contents)
-    print(result)
+    print(len(result))
     
 #Parse through example CSS files and find the regex of colour codes. Then count all the colour codes and set it as a variable.
