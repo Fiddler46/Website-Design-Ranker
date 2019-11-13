@@ -9,14 +9,14 @@
 	\subtitle{Using Machine Learning}
 	%\logo{}
 	\institute{\large Department of Computer Science and Engineering \\\textbf{FISAT}}
-	\date{16 SEPTEMBER 2019}
+	\date{14 NOVEMBER 2019}
 	\author{{\scriptsize Adhyaksh Guhan - 7 , Anet Eliza Johny - 23 , Dharwish Raj - 47 , \\ Joel J Padayattil - 60}}
 	%\setbeamercovered{transparent}
 	%\setbeamertemplate{navigation symbols}{}
 	\begin{frame}[plain]
 		\maketitle
 	\end{frame}
-	\begin{frame}{Introduction}
+	\begin{frame}{Problem Statement}
 		\begin{itemize}
 			
 			
@@ -24,26 +24,24 @@
 			
 			\item Since a perfect model for website ranking  is not in practice this  follows ranking according to submissions by critics.
 			
-			\item Thus we compare ranking implementation done by Google that analyses a webpage's content.
-		
-			\item We will be comparing against:
-				\item A Website that ranks other design according to submissions by critics
-				\item A ranking implementation done by Google that analyses a web-page's contents
 		\end{itemize}
 	\end{frame}
-	\begin{frame}{Problem Statement}
+	\begin{frame}{Scope and Challenges}
 		\begin{itemize}
-
-			\item Our main problem is to evaluate website designs using an algorithm that uses machine learning
 			
-			\item It must take into account various parts of the website to use as parameters.
+			\item There was no existing methodology for mannualfor analyzing and evaluating websites.
 			
-			\item for example: pepole won't be intrested to visit a site if they are berated with adds.Thus adds above a degree will be considered as the parameter for ranking.
-
-			\item There are no existing algorithms or methods that manage to analyze and evaluate websites in this way.
+			\item The method which followed until this time was baised on submissions by the critics.
+			
+			\item Our main problem in evaluate website designs was that each websites were of different layout sizes so it was hard to compare.
+			
+			\item Visibility, clarity and duplicate content also affected.
+			
+	
+			
 		\end{itemize}
 	\end{frame}
-	\begin{frame}{Why "Website Design Ranker" ?}
+	\begin{frame}{Proposed System}
 			\begin{itemize}
 			\item Website Design Ranker will rank set of input websites based on certain parameters.
 			\item It will be helpful to find best website among list of websites which have same content.
@@ -52,106 +50,58 @@
 
 			\end{itemize}
 	\end{frame}
-	\begin{frame}{Existing Methods : Website Design Ranking Agencies }
+	\begin{frame}{Explanation }
 		\begin{itemize}
-			\item Websites are ranked by Ranking Agencies as per submission on their database.
-			\item Hired critics and analyzing staffs are reviewed and ranked according to their policy.
-			\\\
-			\\Example:\\
-			https://www.awwwards.com\\
-
-			https://www.cssdesignawards.com\\
-
-			https://www.csswinner.com/winners\\
-
-			https://thefwa.com\\
+			\item 
 		\end{itemize}
 	\end{frame}
-	\begin{frame}
-	\frametitle{{Existing Methods : Google Page Layout}}
+		\begin{frame}{Methodology used }
 	\begin{itemize}
-		\item Google introduced Page Layout Algorithm to analyze website readability.[1]
-		\item Looks for the layout of the web page and the amount of content we see in the page once we click on a result.[1]
-		
-		\item Focuses to reduce the difficulty of users to find the actual content.[1]
-		
-		\item  The websites which does not have a lot of visible content above-the-fold and dedicates a large fraction (above a normal degree) to ads will be affected.[1]
-		
-		
+		\item 
 	\end{itemize}
-
 	\end{frame}
 	\begin{frame}
 	\frametitle{{Algorithm}}
 	\begin{enumerate}
-		\item Determine the old design of the website.
-		\item If a website has many advertisements above the fold(the part of page that is visible on the screen when the page first loads before scrolling)then it is considered as the first drawback. 
-		\item Else if a website has a large Flash animations or other non-content elements that forces users to scroll to see the content, then that will be the next drawback. 
-		\item Else no drawback. 
-		\item These drawbacks will affect the ranking process.
-		\item If these conditions are met the website ranks a low rank.
-		\item Else its rank will be considerabily high.
-		
+	\item Start
+	\item Using a website scraper to accept the various website addresses
+	\item Scraping through the source code of each website via CSS files
+	\item Find the hex codes of all elements of the website and count them with a count variable
+	\item If count == 0
+	\item [(4.1)] Give mark as 0
+	\item else if count > 5
+	\item [(5.1)] Give mark as 0
+	\item else if count <= 5
+	\item [(6.1)] Give mark as 1
+	\item Stop
 	\end{enumerate}
 	
 	\end{frame}
 	\begin{frame}
-	\frametitle{{Existing Methods : Google Page Layout}}
+	\frametitle{{Current Status}}
 		\begin{figure}
 		
-		\includegraphics[width=10cm]{image/gpa.png}
-		\caption{One of the criteria of GPL Algorithm\textsuperscript{[Fig:1]}}
-		\label{fig1:gpa}
 	\end{figure}
 	\end{frame}
 \begin{frame}
-			\frametitle{{Comparison}}
+			\frametitle{{Project Completion Time}}
 	\begin{itemize}
-
-		\item \textbf{Existing Methods : Website Design Ranking Agencies}
-		\item Website design ranking agencies are not capable of analyzing particular website with different other websites.
-		\item Ranking Varies from each critic or staff, cant be used in large scale, time consuming.
-		\item \textbf{Existing Methods : Google Page Layout Algorithm}
-		\item Only looking for layout of the page, more importance for SEO.
-		\item Proprietary code of Google
-
+		\item
 	\end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{{Problem Analysis}}
-\begin{itemize}
-	\item Our main effort was to create an algorithm for ranking websites baised on the parameters.Even a simple looking websites with exceptional usability and well-structured will cope up with the expectation of the users.
-	
-	\item This will allow users to deviate from the existing mannual ranking system of websites design.
-\end{itemize}
+\begin{frame}{Experimental result}
+			\begin{itemize}
+				\item
+			\end{itemize}	
+	\end{frame}
+
+	\begin{frame}{Social and ethical relevence}
+		\begin{itemsize}
+			\item
+		\end{itemsize}
 \end{frame}
 
-
-
-		\begin{frame}{What we proposed?}
-			\begin{itemize}
-				\item We propose a system where an algorithm scrubs through a website, looking for various elements.
-				\item Once we discover the nature of these elements, we check whether the parameters we have set (eg: colour, symmetry, etc) have been met.
-				\item For each parameter met, a website will obtain a mark.
-				\item Once all parameters have been checked, the website receieves an overall score (the sum of all marks) that ranks its design.
-					\end{itemize}	
-		\end{frame}
-	\begin{frame}{Algorithm}
-		\begin{enumerate}
-			\item Start
-			\item Using a website scraper to accept the various website addresses
-			\item Scraping through the source code of each website via CSS files
-			\item Find the hex codes of all elements of the website and count them with a count variable
-			\item If count == 0
-				\item [(4.1)] Give mark as 0
-			\item else if count > 5
-				\item [(5.1)] Give mark as 0
-			\item else if count <= 5
-				\item [(6.1)] Give mark as 1
-			\item Stop
-		\end{enumerate}
-	\end{frame}
 	\begin{frame}{Conclusion}
 		\begin{itemize}
 			\item Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.
