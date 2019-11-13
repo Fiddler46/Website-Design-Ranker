@@ -1,0 +1,119 @@
+\documentclass[11pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usetheme{Rochester}
+\usepackage{graphicx}
+\begin{document}
+	\title{\textbf{Website Design Ranker}}
+	\subtitle{Using Machine Learning}
+	%\logo{}
+	\institute{\large Department of Computer Science and Engineering \\\textbf{FISAT}}
+	\date{14 NOVEMBER 2019}
+	\author{{\scriptsize Adhyaksh Guhan - 7 , Anet Eliza Johny - 23 , Dharwish Raj - 47 , \\ Joel J Padayattil - 60}}
+	%\setbeamercovered{transparent}
+	%\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+	\begin{frame}{Problem Statement}
+		\begin{itemize}
+			
+			
+			\item Our project is aimed at ranking websites in terms of its design which is evaluated baised on certain parameters.
+			
+			\item Since a perfect model for website ranking  is not in practice this  follows ranking according to submissions by critics.
+			
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{Scope and Challenges}
+		\begin{itemize}
+			
+			\item There was no existing methodology for mannualfor analyzing and evaluating websites.
+			
+			\item The method which followed until this time was baised on submissions by the critics.
+			
+			\item Our main problem in evaluate website designs was that each websites were of different layout sizes so it was hard to compare.
+			
+			\item Visibility, clarity and duplicate content also affected.
+			
+	
+			
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{Proposed System}
+			\begin{itemize}
+			\item Website Design Ranker will rank set of input websites based on certain parameters.
+			\item It will be helpful to find best website among list of websites which have same content.
+			\item We can compare our website design with other competing websites.
+			\item We can see how a website's design may improve in an area.
+
+			\end{itemize}
+	\end{frame}
+	\begin{frame}{Explanation }
+		\begin{itemize}
+			\item 
+		\end{itemize}
+	\end{frame}
+		\begin{frame}{Methodology used }
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	\end{frame}
+	\begin{frame}
+	\frametitle{{Algorithm}}
+	\begin{enumerate}
+	\item Start
+	\item Using a website scraper to accept the various website addresses
+	\item Scraping through the source code of each website via CSS files
+	\item Find the hex codes of all elements of the website and count them with a count variable
+	\item If count == 0
+	\item [(4.1)] Give mark as 0
+	\item else if count > 5
+	\item [(5.1)] Give mark as 0
+	\item else if count <= 5
+	\item [(6.1)] Give mark as 1
+	\item Stop
+	\end{enumerate}
+	
+	\end{frame}
+	\begin{frame}
+	\frametitle{{Current Status}}
+		\begin{figure}
+		
+	\end{figure}
+	\end{frame}
+\begin{frame}
+			\frametitle{{Project Completion Time}}
+	\begin{itemize}
+		\item
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Experimental result}
+			\begin{itemize}
+				\item
+			\end{itemize}	
+	\end{frame}
+
+	\begin{frame}{Social and ethical relevence}
+		\begin{itemsize}
+			\item
+		\end{itemsize}
+\end{frame}
+
+	\begin{frame}{Conclusion}
+		\begin{itemize}
+			\item Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.
+			\item Our method relies on an objective and automated method that is consistent in nature as opposed to the subjective methods of the existing methods.
+		\end{itemize}
+	\end{frame}
+	\begin{frame}
+		\frametitle{\LARGE \textbf{References}}
+		\begin{itemize}
+			\item [1] - Google Page Layout Algorithm: Everything You Need to Know 
+			"https://www.searchenginejournal.com/google-algorithm-history/page-layout/close"
+			\item [Fig:1] - https://cdn.searchenginejournal.com/wp-content/uploads/2017/10/google-algorithm-above-the-fold-380x238.png
+		\end{itemize}
+	\end{frame}
+\end{document}
