@@ -5,4 +5,3 @@ with open('style.css') as f:
     result = re.findall(regex, file_contents)
     print(len(set(result)))
     
-#Parse through example CSS files and find the regex of colour codes. Then count all the colour codes and set it as a variable.
