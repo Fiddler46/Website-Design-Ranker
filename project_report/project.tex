@@ -1,4 +1,5 @@
 \documentclass{fisatproject}
+\usepackage{graphicx}
 \title{Website Design Ranking Using ML}
 \team{Adhyaksh Guhan \\ Anet Eliza Johny\\ Dharwish Raj \\ Joel J Padayattil}
 \author{Dharwish Raj}
@@ -153,10 +154,18 @@ boring.
 Too many colours, then the website is over-designed and busy.
 The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression.This count is used to rank the websites accordingly.Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.    
 \chapter{TESTING}
-
+\begin{itemize}
+	\item A website template's 'style.css' file was downloaded and then used as subject to testing the colour counting code.
+	\item A website was created to have public ranking of various websites with a possible ranking of 1-5 (1 being the lowest, 5 the highest). This could then be used as ranking data for the program.
+\end{itemize}
 \chapter{RESULTS}
-
-Compiled languages arelanguages typically processed by compilers, though theoretically any language can be compiled or interpreted. The important ones are:
+	\begin{itemize}
+		\item Number of colours counted:
+	\begin{figure}[h]
+		\includegraphics[scale=.3]{colourtest.png}
+	\end{figure}
+	\end{itemize}
+Compiled languages are languages typically processed by compilers, though theoretically any language can be compiled or interpreted. The important ones are:
 \begin{itemize}
 \item Ada
 \item C
@@ -166,10 +175,15 @@ Compiled languages arelanguages typically processed by compilers, though theoret
 \end{itemize}
 
 \chapter{CONTRIBUTIONS}
-
+\begin{itemize}
+	\item Dharwish Raj - Creation of website for public ranking and code correction
+	\item Adhyaksh Guhan - Creation of code for colour counting and spell checking
+	\item Joel J Padayattil
+	\item Anet Eliza Johny
+\end{itemize}
 \chapter{CONCLUSION}
 
-A Website Design Ranker is an automated method to rank websites based on their design by comparing certain parameters.Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.To make ranking easier, the Website Design Ranker uses an algorithm to rank websites based on parameter colour.
+A Website Design Ranker is an automated method to rank websites based on their design by comparing certain parameters. Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.To make ranking easier, the Website Design Ranker uses an algorithm to rank websites based on parameter colour.
 
 Nowadays, ranking websites is done manually by a committee or a group of people. To avoid or to reduce the human involvement, Website Design Ranker is a suitable method. In this report, we have discussed our approach to rank a website design.
 
@@ -184,6 +198,12 @@ Know
 
 \begin{appendices}
 \chapter{Sample Code}
+	import re
+	with open('style.css') as f:
+	file\_contents = f.read()
+	regex = r':?.(\#[0-9a-fA-F]\{6\}|\#[0-9a-fA-F]\{3\})'
+	result = re.findall(regex, file\_contents)
+	print(len(set(result)))
 \begin{lstlisting}[language=c++]
 
 \end{lstlisting}

@@ -1,26 +1,36 @@
-import urllib.request as req
-from bs4 import BeautifulSoup
 import re
-url = input('enter a full website address: ')
 
-html = req.urlopen(url) # request the initial page
-soup = BeautifulSoup(html, 'html.parser')
-for styles in soup.select('style'): # get in-page style tags
-    print('in page style:')
-    print(styles.string)
+import requests
+from bs4 import BeautifulSoup
 
-for link in soup.find_all('link', type='text/css'): # get links to external style sheets
-    address = link['href'] # the address of the stylesheet
-    if address.startswith('/'): # relative link
-        address = url + address
-    css = req.urlopen(address).read() # make a request to download the stylesheet from the address
-    print('linked stylesheet')
-    print(css)
-with open('style.css') as f:
-    file_contents = f.read()
-    regex = r':?.(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})'
-    result = re.findall(regex, file_contents)
+REGEX_CSS = re.compile(r':?.(#[0-9a-fA-F]{6}|#[0-9a-fA-F]{3})')
 
-    print((set(result)))
-    print(len(set(result)))
-    
+def main():
+    base_url = input('Enter a full website address: ')
+    # Do verification here
+
+    html = requests.get(base_url) # request the initial page
+    soup = BeautifulSoup(html.text, 'html.parser')
+    for styles in soup.select('style'): # get in-page style tags
+        print('in page style:')
+        print(styles.string)
+
+    css_urls = map(
+    lambda u: base_url + u if u.startswith("/") else u,
+    (l["href"] for l in soup.find_all('link', type='text/css') if l.get("href"))
+)
+    for url in css_urls:
+        css_request = requests.get(url)
+
+        if css_request.status_code != 200:
+            print("Could not fetch CSS!")
+            continue
+        result = REGEX_CSS.findall(css_request.text)
+        if not result:
+            print("Pattern not found in CSS!")
+            continue
+        print((set(result)))
+        print(len(set(result)))
+
+if __name__ == "__main__":
+    main()
