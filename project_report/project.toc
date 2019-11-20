@@ -1,0 +1,16 @@
+\contentsline {chapter}{List of Figures}{iv}% 
+\contentsline {chapter}{List of Tables}{v}% 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}% 
+\contentsline {section}{\numberline {1.1}Overview}{1}% 
+\contentsline {section}{\numberline {1.2}Scope of Project}{1}% 
+\contentsline {chapter}{\numberline {2}RELATED WORK}{2}% 
+\contentsline {chapter}{\numberline {3}DESIGN and IMPLEMENTATION}{4}% 
+\contentsline {section}{\numberline {3.1}Design}{4}% 
+\contentsline {subsection}{\numberline {3.1.1}Algorithm}{4}% 
+\contentsline {section}{\numberline {3.2}Implementation}{4}% 
+\contentsline {chapter}{\numberline {4}TESTING}{5}% 
+\contentsline {chapter}{\numberline {5}RESULTS}{6}% 
+\contentsline {chapter}{\numberline {6}CONTRIBUTIONS}{7}% 
+\contentsline {chapter}{\numberline {7}CONCLUSION}{8}% 
+\contentsline {chapter}{Appendices}{10}% 
+\contentsline {chapter}{\numberline {A}Sample Code}{11}% 
