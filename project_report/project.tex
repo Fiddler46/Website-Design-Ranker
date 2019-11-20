@@ -76,7 +76,9 @@ Ranking of website design manually is a difficult and time consuming method. Web
 Website Design Ranker will rank set of input websites based
 on certain parameters.Too many colors can create a sense of confusion. As colour is an important factor to attract as well as repel the audience of a website. So the Website Design Ranker uses colour as a parameter to rank different websites accordingly.
 \section{Scope of Project}
+There was no existing methodology for analyzing and evaluating website designs. The method which followed until this time was based on submissions by the critics. This method can be replaced by our automated system to rank website design based on the different parameters, say colour,grid etc.
 \chapter{RELATED WORK}
+\section{Google Page Layout Algorithm}
 Google introduced Page Layout Algorithm to analyze website
 readability.[1] It looks for the layout of the web page and the amount of
 content we see in the page once we click on a result.[1] It focuses to reduce the difficulty of users to find the actual
@@ -87,28 +89,17 @@ degree) to ads, will be affected.[1]
 
 
 \begin{figure}
-\begin{center}
+
 	\includegraphics[width=10cm]{image/gpa.png}
 	\caption{One of the criteria of GPL Algorithm\textsuperscript{[Fig:1]}}
 	\label{fig1:gpa}
-\end{center}
+
 \end{figure}
 
 
 Determine the old design of the website.If a website has many advertisements above the fold(the part of page that is visible on the screen when the page first loads before scrolling)then it is considered as the first drawback.Else if a website has a large flash animations or other
 non-content elements that forces users to scroll to see the content, then that will be the next drawback. If there is specific amount of ads and content of website required for audience, there will be no drawback.These drawbacks will affect the ranking process. If these conditions are met the website ranks a low rank. Else its rank will be considerabily high.
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline Rank & Country & Population  & Percentage  \\ 
-\hline 1 & China & 1,347,350,000 & 19.24\% \\ 
-\hline 2 & India & 1,210,193,422  & 17.28\% \\ 
-\hline 3 & United States & 313,269,000 & 4.47\% \\ 
-\hline 
-\end{tabular}
-\caption{World Population Table} 
-\end{center}
-\end{table}
+
 
 
 
@@ -119,7 +110,7 @@ Website Design Ranker will rank set of input websites based
 on certain parameters.
 The parameters we are focussing on are color and grid .
 Then we move on for public review.
-This will be helpful to finding the best website among list of
+This will be helpful in finding the best website among list of
 websites.
 The website design can be compared with other competing
 websites.
@@ -133,11 +124,27 @@ This show a  website’s design may improve in an area.
 	addresses.
 	\item[3.] Scraping through the source code of each website via CSS files.
 	\item[4.] Find the hex codes of all elements of the website and count them with a count variable.
-	\item[5.] If count == 0 then give rank as 0.
-	\item[6.] else if count is greater than or equal to 5, then also give rank as 0.
+	\item[5.] If count == 0 then give mark as 0.
+	\item[6.] else if count is greater than or equal to 5, then also give mark as 0.
 	\item[7.]If the count is less than or equal to 5,then the mark provided will be 1.
 	\item[8.]Stop.
 \end{itemize}
+\subsection{System Requirements}
+\subsubsection{\underline{Software Requirements}}
+\begin{itemize}
+	\item Operating System : LINUX OS 
+	
+	\item Language : Python Language
+\end{itemize}
+
+\subsubsection{\underline{Hardware Requirements}}
+\begin{itemize}
+	\item Processor : Intel core i3, i5 
+	\item RAM : 8 GB
+	\item Hard Disk : 1 TB
+	
+\end{itemize}
+
 \section{Implementation}
 On the basis of colour theory, we count the number of
 colours to determine the ranking of the website.
@@ -162,13 +169,16 @@ Compiled languages arelanguages typically processed by compilers, though theoret
 
 \chapter{CONCLUSION}
 
-A Website Design Ranker is an automated method to rank websites based on their design by comparing certain parameters.Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.To make ranking easier, the Website Design Ranker uses an algorithm to rank websites based on 
+A Website Design Ranker is an automated method to rank websites based on their design by comparing certain parameters.Here we can see the logical differences in the approaches that our algorithm takes versus any existing methods.To make ranking easier, the Website Design Ranker uses an algorithm to rank websites based on parameter colour.
+
+Nowadays, ranking websites is done manually by a committee or a group of people. To avoid or to reduce the human involvement, Website Design Ranker is a suitable method. In this report, we have discussed our approach to rank a website design.
 
 
 
 \begin{thebibliography}{1}
 \bibitem{nist} Google Page Layout Algorithm: Everything You Need to
-Know "https://www.searchenginejournal.com/google-algorithm-history/page-layout/close"
+Know
+ \url{https://www.searchenginejournal.com/google-algorithm-history/page-layout/close}
 \bibitem{knuth} Wikipedia, ``Donald knuth.'' \url{http://en.wikipedia.org/wiki/Donald_Knuth}.
 \end{thebibliography}
 
