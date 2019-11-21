@@ -154,20 +154,26 @@ This show a  website’s design may improve in an area.
 	
 \end{itemize}
 
+
 \section{Implementation}
 \subsection{Data Flow Diagram - Level 0}
 \begin{flushleft}
 	\centerline{\includegraphics[scale=1.2]{image/level_0_dfd.jpeg}}
 \end{flushleft}
-\subsection{Data Flow Diagram - Level 1}
-\includegraphics[scale=0.80]{image/level_0_dfd.jpeg}
-\newpage
+
 On the basis of colour theory, we count the number of
 colours to determine the ranking of the website.
 Too few colours, then the website is extremely simple and too
 boring.
 Too many colours, then the website is over-designed and busy.
-The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression.This count is used to rank the websites accordingly.Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.    
+The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression.This count is used to rank the websites accordingly.Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.  
+  \subsection{Webscraping using Beautifulsoap}
+  \begin{itemize}
+ \item It is an HTTP request which is sent to the URL of webpage that we are to access.In return the server respont by returning HTML contents.Here a third party library is used for request.
+ \item When we access the HTML contents,then we move to the task of parsing data.As the HTML data is nested one need a parser.
+ \item Many HTML parser libraries are available, but the most advanced is html5lib.
+  \item Now, all we have to do is navigate to the Parse Tree we created, For this, we will use another third party Python Library Beautiful Soup. It is a Python library for extracting data from HTML and XML files.
+  \end{itemize}
 \chapter{TESTING}
 
 	Testing was done in several stages of this project. It was helpful to determine suitable language and library to collect data from different websites to find out ranking\\

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  21 NOV 2019 23:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  22 NOV 2019 00:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,12 +385,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 <image/level_0_dfd.jpeg, id=51, 261.6174pt x 78.5334pt>
 File: image/level_0_dfd.jpeg Graphic file (type jpg)
 <use image/level_0_dfd.jpeg>
-Package pdftex.def Info: image/level_0_dfd.jpeg  used on input line 160.
+Package pdftex.def Info: image/level_0_dfd.jpeg  used on input line 161.
 (pdftex.def)             Requested size: 313.93929pt x 94.2396pt.
-File: image/level_0_dfd.jpeg Graphic file (type jpg)
-<use image/level_0_dfd.jpeg>
-Package pdftex.def Info: image/level_0_dfd.jpeg  used on input line 163.
-(pdftex.def)             Requested size: 209.29419pt x 62.8268pt.
+
+Overfull \hbox (0.51569pt too wide) in paragraph at lines 174--175
+[]\OT1/cmr/m/n/12 Many HTML parser li-braries are avail-able, but the most ad-v
+anced is html5lib. 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -398,52 +399,52 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[4 <./image/level_0_dfd.jpeg>] [5]
+[4 <./image/level_0_dfd.jpeg>]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
+ []
+
+[5
+
+]
+Chapter 5.
+<colourtest.png, id=58, 1606.0pt x 903.375pt>
+File: colourtest.png Graphic file (type png)
+<use colourtest.png>
+Package pdftex.def Info: colourtest.png  used on input line 189.
+(pdftex.def)             Requested size: 481.80373pt x 271.01459pt.
+
+Overfull \hbox (63.55005pt too wide) in paragraph at lines 189--190
+[][] 
  []
 
 [6
 
-]
-Chapter 5.
-<colourtest.png, id=62, 1606.0pt x 903.375pt>
-File: colourtest.png Graphic file (type png)
-<use colourtest.png>
-Package pdftex.def Info: colourtest.png  used on input line 183.
-(pdftex.def)             Requested size: 481.80373pt x 271.01459pt.
-
-Overfull \hbox (63.55005pt too wide) in paragraph at lines 183--184
-[][] 
- []
-
-[7
-
  <./colourtest.png>]
 Chapter 6.
-[8
+[7
 
 ]
 Chapter 7.
-[9
+[8
 
 ]
-Underfull \hbox (badness 7012) in paragraph at lines 211--214
+Underfull \hbox (badness 7012) in paragraph at lines 217--220
 []\OT1/cmr/m/n/12 Google Page Lay-out Al-go-rithm: Ev-ery-thing You Need to Kno
 w
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--214
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
 \OT1/cmtt/m/n/12 https : / / www . searchenginejournal . com / google-[]algorit
 hm-[]history /
  []
 
-[10
+[9
 
-] [11
+] [10
 
 
 ]
@@ -451,17 +452,17 @@ Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-Overfull \hbox (11.79558pt too wide) in paragraph at lines 223--224
+Overfull \hbox (11.79558pt too wide) in paragraph at lines 229--230
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[12
+[11
 
 ] (./project.aux) ) 
 Here is how much of TeX's memory you used:
  4374 strings out of 494561
  59341 string characters out of 6177454
- 314803 words of memory out of 5000000
+ 314785 words of memory out of 5000000
  7967 multiletter control sequences out of 15000+600000
  11819 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -478,10 +479,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb>
-Output written on project.pdf (19 pages, 442406 bytes).
+Output written on project.pdf (18 pages, 442422 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 120 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
