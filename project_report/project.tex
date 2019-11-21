@@ -147,6 +147,13 @@ This show a  website’s design may improve in an area.
 \end{itemize}
 
 \section{Implementation}
+\subsection{Data Flow Diagram - Level 0}
+\begin{flushleft}
+	\centerline{\includegraphics[scale=1.2]{image/level_0_dfd.jpeg}}
+\end{flushleft}
+\subsection{Data Flow Diagram - Level 1}
+\includegraphics[scale=0.80]{image/level_0_dfd.jpeg}
+\newpage
 On the basis of colour theory, we count the number of
 colours to determine the ranking of the website.
 Too few colours, then the website is extremely simple and too
@@ -154,6 +161,9 @@ boring.
 Too many colours, then the website is over-designed and busy.
 The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression.This count is used to rank the websites accordingly.Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.    
 \chapter{TESTING}
+
+	Testing was done in several stages of this project. It was helpful to determine suitable language and library to collect data from different websites to find out ranking\\
+	\subsection{Scrapping CSS codes from websites}
 \begin{itemize}
 	\item A website template's 'style.css' file was downloaded and then used as subject to testing the colour counting code.
 	\item A website was created to have public ranking of various websites with a possible ranking of 1-5 (1 being the lowest, 5 the highest). This could then be used as ranking data for the program.
@@ -178,8 +188,8 @@ Compiled languages are languages typically processed by compilers, though theore
 \begin{itemize}
 	\item Dharwish Raj - Creation of website for public ranking and code correction
 	\item Adhyaksh Guhan - Creation of code for colour counting and spell checking
-	\item Joel J Padayattil
-	\item Anet Eliza Johny
+	\item Joel J Padayattil - Creation of UI using PyQT5
+	\item Anet Eliza Johny - Proposed and Implemented basic algorithm 
 \end{itemize}
 \chapter{CONCLUSION}
 
