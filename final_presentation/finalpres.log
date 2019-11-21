@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  21 NOV 2019 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  22 NOV 2019 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,7 +978,7 @@ Package rerunfilecheck Info: File `finalpres.out' has not changed.
 Here is how much of TeX's memory you used:
  17398 strings out of 494561
  329251 string characters out of 6177454
- 397853 words of memory out of 5000000
+ 397851 words of memory out of 5000000
  20602 multiletter control sequences out of 15000+600000
  61862 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
