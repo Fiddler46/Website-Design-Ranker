@@ -203,18 +203,18 @@ Nowadays, ranking websites is done manually by a committee or a group of people.
 \bibitem{nist} Google Page Layout Algorithm: Everything You Need to
 Know
  \url{https://www.searchenginejournal.com/google-algorithm-history/page-layout/close}
-\bibitem{knuth} Wikipedia, ``Donald knuth.'' \url{http://en.wikipedia.org/wiki/Donald_Knuth}.
+
 \end{thebibliography}
 
 \begin{appendices}
 \chapter{Sample Code}
+\begin{lstlisting}[language=python]
 	import re
 	with open('style.css') as f:
 	file\_contents = f.read()
 	regex = r':?.(\#[0-9a-fA-F]\{6\}|\#[0-9a-fA-F]\{3\})'
 	result = re.findall(regex, file\_contents)
 	print(len(set(result)))
-\begin{lstlisting}[language=c++]
 
 \end{lstlisting}
 \end{appendices}
