@@ -28,6 +28,9 @@ class Ui_Dialog(object):
         self.rank_button = QtWidgets.QPushButton(Dialog)
         self.rank_button.setGeometry(QtCore.QRect(40, 540, 711, 25))
         self.rank_button.setObjectName("rank_button")
+        self.label1 = QtWidgets.QLabel(Dialog)
+        self.label1.setGeometry(QtCore.QRect(100, 140, 200, 20))
+        self.label1.setObjectName("label1")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(60, 340, 48, 14))
         self.label.setObjectName("label")
@@ -42,16 +45,23 @@ class Ui_Dialog(object):
         self.rank_button.clicked.connect(self.run_command)
 
     def run_command(self):
+        global num_of_line
+        num_of_line=0
+        rank = [['',''] for _ in range(num_of_line)]
+        total_count = 0
         txt = str(self.plainTextEdit.toPlainText())
         #print(txt)
         #self.textEdit.insertPlainText(str(out, "utf-8"))
         #Parse through example CSS files and find the regex of colour codes. Then count all the colour codes and set it as a variable.
         count = 0
         #with open(txt) as fp:
+        num_of_line = len(txt.splitlines())
         for line in txt.splitlines():
             try:
                 print(line)
                 url = line
+                #length = len(line.splitlines())
+                #print(length)
                 html = req.urlopen(line) # request the initial page
                 soup = BeautifulSoup(html, 'html.parser')
                 for styles in soup.select('style'): # get in-page style tags
@@ -78,21 +88,28 @@ class Ui_Dialog(object):
                         #print(len(set(result)))
                         count = count + len(set(result))
                     except:
-                        print("Error")
+                        #print("Error")
                         pass
+                #rank[][0]=""
+                #f.write(url,"--number of colorcode--",result)
+
             except:
-                print("Error")
+                #print("Error")
                 pass
             print(count)
+            total_count = total_count + count
+            print (total_count)   
             count = 0
+        avg_value = total_count/num_of_line
+        print(avg_value)   
+            
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.url_input_label.setText(_translate("Dialog", "Input URL :"))
         self.rank_button.setText(_translate("Dialog", "Rank"))
+        self.label1.setText(_translate("Dialog", "Website Design Ranking"))
         self.label.setText(_translate("Dialog", "Output :"))
-
-    
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
