@@ -1,0 +1,23 @@
+\contentsline {chapter}{List of Figures}{iv}% 
+\contentsline {chapter}{List of Tables}{v}% 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}% 
+\contentsline {section}{\numberline {1.1}Overview}{1}% 
+\contentsline {section}{\numberline {1.2}Scope of Project}{1}% 
+\contentsline {chapter}{\numberline {2}RELATED WORK}{2}% 
+\contentsline {section}{\numberline {2.1}Google Page Layout Algorithm}{2}% 
+\contentsline {chapter}{\numberline {3}DESIGN and IMPLEMENTATION}{3}% 
+\contentsline {section}{\numberline {3.1}Design}{3}% 
+\contentsline {subsection}{\numberline {3.1.1}Algorithm}{3}% 
+\contentsline {subsection}{\numberline {3.1.2}System Requirements}{3}% 
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {Software Requirements}}\mathsurround \z@ $\relax }{3}% 
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {Hardware Requirements}}\mathsurround \z@ $\relax }{4}% 
+\contentsline {section}{\numberline {3.2}Implementation}{4}% 
+\contentsline {subsection}{\numberline {3.2.1}Data Flow Diagram - Level 0}{4}% 
+\contentsline {subsection}{\numberline {3.2.2}Webscraping using Beautifulsoap}{4}% 
+\contentsline {chapter}{\numberline {4}TESTING}{5}% 
+\contentsline {subsection}{\numberline {4.0.1}Scrapping CSS codes from websites}{5}% 
+\contentsline {chapter}{\numberline {5}RESULTS}{6}% 
+\contentsline {chapter}{\numberline {6}CONTRIBUTIONS}{7}% 
+\contentsline {chapter}{\numberline {7}CONCLUSION}{8}% 
+\contentsline {chapter}{Appendices}{10}% 
+\contentsline {chapter}{\numberline {A}Sample Code}{11}% 

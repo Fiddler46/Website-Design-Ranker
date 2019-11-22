@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.4)  14 NOV 2019 09:43
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  19 NOV 2019 20:56
->>>>>>> 135a8ae929e9ccd1e4ece92b5af2aa8c85d9fef6
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.16)  22 NOV 2019 00:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wdr_phase1.tex
-(./wdr_phase1.tex
+**finalpres.tex
+(./finalpres.tex
 LaTeX2e <2019-10-01> patch level 1
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
@@ -676,21 +672,129 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(/usr/share/texmf-dist/tex/latex/beamer/beamerthemeRochester.sty
-(/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
-\beamer@sidebarwidth=\dimen189
-\beamer@headheight=\dimen190
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-7.
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.s
+ty
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+ (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 
-(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+\pgfopts@list@add@a@toks=\toks45
+\pgfopts@list@add@b@toks=\toks46
+)
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropo
+lis.sty
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+ (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count157
+\calc@Bcount=\count158
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count159
+\calc@Cskip=\skip59
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box55
+)
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 ))
-(/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerectangles.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
-(/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty))
-(./wdr_phase1.aux)
-\openout1 = `wdr_phase1.aux'.
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count160
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikz@lastmovetox=\dimen256
+\tikz@lastmovetoy=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count161
+\tikznumberofchildren=\count162
+\tikznumberofcurrentchild=\count163
+\tikz@fig@count=\count164
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count165
+\pgfmatrixcurrentcolumn=\count166
+\pgf@matrix@numberofcolumns=\count167
+)
+\tikz@expandcount=\count168
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+\metropolis@titleseparator@linewidth=\skip60
+\metropolis@progressonsectionpage=\skip61
+\metropolis@progressonsectionpage@linewidth=\skip62
+\metropolis@blocksep=\skip63
+\metropolis@blockadjust=\skip64
+\metropolis@parskip=\skip65
+)
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropo
+lis.sty
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip66
+\metropolis@progressinheadfoot=\skip67
+\metropolis@progressinheadfoot@linewidth=\skip68
+)
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropo
+lis.sty
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+)
+(/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropol
+is.sty
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 95.
+
+)) (./finalpres.aux)
+\openout1 = `finalpres.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -706,7 +810,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
-
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
+.
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -743,17 +851,17 @@ LaTeX Font Info:    ... okay on input line 7.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
-\scratchdimen=\dimen191
-\scratchbox=\box55
-\nofMPsegments=\count158
-\nofMParguments=\count159
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count160
-\MPscratchDim=\dimen192
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count169
+\scratchdimen=\dimen260
+\scratchbox=\box60
+\nofMPsegments=\count170
+\nofMParguments=\count171
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count172
+\MPscratchDim=\dimen261
+\MPnumerator=\count173
+\makeMPintoPDFobject=\count174
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -772,7 +880,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box56
+\AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 7.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -781,15 +889,15 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count175
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
 
-(./wdr_phase1.out) (./wdr_phase1.out)
+(./finalpres.out) (./finalpres.out)
 \@outlinefile=\write5
-\openout5 = `wdr_phase1.out'.
+\openout5 = `finalpres.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 7.
@@ -861,14 +969,28 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-Engli
 sh.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./wdr_phase1.nav)
+) (./finalpres.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 13.
 
+
+Overfull \vbox (15.63992pt too high) detected at line 18
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
+33.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 33.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 33.
+
+[2
 
 ] [3
 
@@ -876,10 +998,66 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 
 ] [5
 
-] [6
-
 ]
-[7
+<image/gpa.png, id=52, 381.425pt x 238.8925pt>
+File: image/gpa.png Graphic file (type png)
+<use image/gpa.png>
+Package pdftex.def Info: image/gpa.png  used on input line 77.
+(pdftex.def)             Requested size: 284.52756pt x 178.21024pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+77.
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+7.
+
+(/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+77.
+
+(/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+77.
+
+(/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 77.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 77.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 77.
+
+Overfull \vbox (6.44853pt too high) detected at line 77
+ []
+
+[6
+
+ <./image/gpa.png>] [7
 
 ] [8
 
@@ -887,110 +1065,60 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 
 ] [10
 
-<<<<<<< HEAD
-]
-
-! LaTeX Error: Environment itemsize undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 109
-[][]
- []
-
-
-! LaTeX Error: \begin{beamer@framepauses} on input line 109 ended by \end{items
-ize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[11
-
-] [12] [13
-=======
 ] [11
->>>>>>> 135a8ae929e9ccd1e4ece92b5af2aa8c85d9fef6
 
 ] [12
 
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
 ]
 \tf@nav=\write6
-\openout6 = `wdr_phase1.nav'.
+\openout6 = `finalpres.nav'.
 
 \tf@toc=\write7
-\openout7 = `wdr_phase1.toc'.
+\openout7 = `finalpres.toc'.
 
 \tf@snm=\write8
-\openout8 = `wdr_phase1.snm'.
+\openout8 = `finalpres.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
- (./wdr_phase1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
-Package rerunfilecheck Info: File `wdr_phase1.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+
+(./finalpres.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package rerunfilecheck Info: File `finalpres.out' has not changed.
+(rerunfilecheck)             Checksum: 007E9ED038FE7586359361A3F86965C4;140.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 17847 strings out of 492167
- 333384 string characters out of 6131558
- 413893 words of memory out of 5000000
- 21789 multiletter control sequences out of 15000+600000
- 33531 words of font info for 28 fonts, out of 8000000 for 9000
+ 21319 strings out of 492167
+ 417055 string characters out of 6131557
+ 486834 words of memory out of 5000000
+ 25153 multiletter control sequences out of 15000+600000
+ 61329 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,14n,57p,804b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,95p,1832b,724s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
-nts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lms
-s12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texm
-f-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on wdr_phase1.pdf (14 pages, 106151 bytes).
-=======
- 17244 strings out of 494561
- 326726 string characters out of 6177454
- 399829 words of memory out of 5000000
- 20500 multiletter control sequences out of 15000+600000
- 27974 words of font info for 26 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 48i,14n,52p,804b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmssbx10.pfb>
-Output written on wdr_phase1.pdf (12 pages, 102696 bytes).
->>>>>>> 135a8ae929e9ccd1e4ece92b5af2aa8c85d9fef6
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/
+share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/lm/lmssbx10.pfb>
+Output written on finalpres.pdf (17 pages, 121342 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
