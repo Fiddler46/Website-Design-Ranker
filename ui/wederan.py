@@ -45,16 +45,18 @@ class Ui_Dialog(object):
         self.rank_button.clicked.connect(self.run_command)
 
     def run_command(self):
-        global num_of_line
-        num_of_line=0
-        rank = [['',''] for _ in range(num_of_line)]
+
         total_count = 0
         txt = str(self.plainTextEdit.toPlainText())
+        numl=len(txt.splitlines())
+        rank = [['',''] for _ in range(numl)]
+        rank1 = [['',''] for _ in range(numl)]
         #print(txt)
         #self.textEdit.insertPlainText(str(out, "utf-8"))
         #Parse through example CSS files and find the regex of colour codes. Then count all the colour codes and set it as a variable.
         count = 0
         #with open(txt) as fp:
+        b = 0
         num_of_line = len(txt.splitlines())
         for line in txt.splitlines():
             try:
@@ -90,9 +92,11 @@ class Ui_Dialog(object):
                     except:
                         #print("Error")
                         pass
-                #rank[][0]=""
+                rank[b][0]=line
+                rank[b][1]=count
+                b=b+1
+                print(rank[1][0])
                 #f.write(url,"--number of colorcode--",result)
-
             except:
                 #print("Error")
                 pass
@@ -102,7 +106,18 @@ class Ui_Dialog(object):
             count = 0
         avg_value = total_count/num_of_line
         print(avg_value)   
-            
+        print(rank)
+        for c in range(num_of_line):
+            if(rank[c][1]==0):
+                rank1[c][0]=rank[c][0]
+                rank1[c][1]=3
+            elif(rank[c][1]<=avg_value):
+                rank1[c][0]=rank[c][0]
+                rank1[c][1]=1
+            else:
+                rank1[c][0]=rank[c][0]
+                rank1[c][1]=2
+        print(rank1)
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
