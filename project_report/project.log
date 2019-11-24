@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.25)  22 NOV 2019 00:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.4)  25 NOV 2019 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -123,15 +123,15 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \lst@maxwidth=\dimen121
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 \c@lstnumber=\count98
 \lst@skipnumbers=\count99
 \lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
@@ -254,10 +254,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 7.
 Package epstopdf Info: Source file: <fisat.eps>
-(epstopdf)                    date: 2019-11-21 20:17:51
+(epstopdf)                    date: 2019-11-20 23:03:57
 (epstopdf)                    size: 532566 bytes
 (epstopdf)             Output file: <fisat-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-11-21 20:17:51
+(epstopdf)                    date: 2019-11-20 23:03:57
 (epstopdf)                    size: 227163 bytes
 (epstopdf)             Command: <repstopdf --outfile=fisat-eps-converted-to.pdf
  fisat.eps>
@@ -282,10 +282,10 @@ df>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
 Package epstopdf Info: Source file: <fisat.eps>
-(epstopdf)                    date: 2019-11-21 20:17:51
+(epstopdf)                    date: 2019-11-20 23:03:57
 (epstopdf)                    size: 532566 bytes
 (epstopdf)             Output file: <fisat-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-11-21 20:17:51
+(epstopdf)                    date: 2019-11-20 23:03:57
 (epstopdf)                    size: 227163 bytes
 (epstopdf)             Command: <repstopdf --outfile=fisat-eps-converted-to.pdf
  fisat.eps>
@@ -399,74 +399,79 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[4 <./image/level_0_dfd.jpeg>]
+[4 <./image/level_0_dfd.jpeg>] [5]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[5
+<surveyrank.png, id=58, 1606.0pt x 764.8575pt>
+File: surveyrank.png Graphic file (type png)
+<use surveyrank.png>
+Package pdftex.def Info: surveyrank.png  used on input line 194.
+(pdftex.def)             Requested size: 401.49902pt x 191.2139pt.
+[6
 
-]
+ <./surveyrank.png>]
 Chapter 5.
-<colourtest.png, id=58, 1606.0pt x 903.375pt>
+<colourtest.png, id=65, 1606.0pt x 903.375pt>
 File: colourtest.png Graphic file (type png)
 <use colourtest.png>
-Package pdftex.def Info: colourtest.png  used on input line 189.
+Package pdftex.def Info: colourtest.png  used on input line 204.
 (pdftex.def)             Requested size: 481.80373pt x 271.01459pt.
 
-Overfull \hbox (63.55005pt too wide) in paragraph at lines 189--190
+Overfull \hbox (63.55005pt too wide) in paragraph at lines 204--205
 [][] 
  []
 
-[6
+[7
 
  <./colourtest.png>]
 Chapter 6.
-[7
-
-]
-Chapter 7.
 [8
 
 ]
-Underfull \hbox (badness 7012) in paragraph at lines 217--220
+Chapter 7.
+[9
+
+]
+Underfull \hbox (badness 7012) in paragraph at lines 224--227
 []\OT1/cmr/m/n/12 Google Page Lay-out Al-go-rithm: Ev-ery-thing You Need to Kno
 w
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--220
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
 \OT1/cmtt/m/n/12 https : / / www . searchenginejournal . com / google-[]algorit
 hm-[]history /
  []
 
-[9
+[10
 
-] [10
+] [11
 
 
 ]
 Appendix A.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
+File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-Overfull \hbox (11.79558pt too wide) in paragraph at lines 229--230
+Overfull \hbox (11.79558pt too wide) in paragraph at lines 236--237
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[11
+[12
 
 ] (./project.aux) ) 
 Here is how much of TeX's memory you used:
- 4374 strings out of 494561
- 59341 string characters out of 6177454
- 314785 words of memory out of 5000000
- 7967 multiletter control sequences out of 15000+600000
+ 4378 strings out of 492609
+ 59413 string characters out of 6131462
+ 320004 words of memory out of 5000000
+ 8229 multiletter control sequences out of 15000+600000
  11819 words of font info for 41 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 41i,10n,45p,506b,1277s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,45p,506b,1275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
@@ -479,10 +484,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb>
-Output written on project.pdf (18 pages, 442422 bytes).
+Output written on project.pdf (19 pages, 477031 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
