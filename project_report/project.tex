@@ -78,12 +78,12 @@ Joel J Padayattil
 \setcounter{page}{1}
 \renewcommand{\baselinestretch}{1.50}
 \section{Overview}
-The website design is an important factor in the growth of that website. It makes a difference on how the target audience view the business or company.So website design ranking is important for the audience to choose the best website.Recently this ranking is done manually by looking into the websites by a group of people.
+The website design is an important factor in the growth of that website. It makes a difference on how the target audience view the business or company. So website design ranking is important for the audience to choose the best website. Recently this ranking is done manually by looking into the websites by a group of people.
 
 Ranking of website design manually is a difficult and time consuming method. Website Design Ranker can overcome this difficulty by automating the ranking mechanism. Since a perfect model for website ranking is not in practice this follows ranking according to submissions by critics. Website Design Ranker reduces the difficulty and increases the accuracy in ranking since it is using an algorithm for ranking.
 
 Website Design Ranker will rank set of input websites based
-on certain parameters.Too many colors can create a sense of confusion. As colour is an important factor to attract as well as repel the audience of a website. So the Website Design Ranker uses colour as a parameter to rank different websites accordingly.
+on certain parameters. Too many colors can create a sense of confusion. As colour is an important factor to attract as well as repel the audience of a website. So the Website Design Ranker uses colour as a parameter to rank different websites accordingly.
 \section{Scope of Project}
 There was no existing methodology for analyzing and evaluating website designs. The method which followed until this time was based on submissions by the critics. This method can be replaced by our automated system to rank website design based on the different parameters, say colour,grid etc.
 \chapter{RELATED WORK}
@@ -106,8 +106,8 @@ degree) to ads, will be affected.[1]
 \end{figure}
 
 
-Determine the old design of the website.If a website has many advertisements above the fold(the part of page that is visible on the screen when the page first loads before scrolling)then it is considered as the first drawback.Else if a website has a large flash animations or other
-non-content elements that forces users to scroll to see the content, then that will be the next drawback. If there is specific amount of ads and content of website required for audience, there will be no drawback.These drawbacks will affect the ranking process. If these conditions are met the website ranks a low rank. Else its rank will be considerabily high.
+Determine the old design of the website. If a website has many advertisements above the fold(the part of page that is visible on the screen when the page first loads before scrolling)then it is considered as the first drawback. Else if a website has a large flash animations or other
+non-content elements that forces users to scroll to see the content, then that will be the next drawback. If there is specific amount of ads and content of website required for audience, there will be no drawback. These drawbacks will affect the ranking process. If these conditions are met the website ranks a low rank. Else its rank will be considerabily high.
 
 
 
@@ -166,14 +166,21 @@ colours to determine the ranking of the website.
 Too few colours, then the website is extremely simple and too
 boring.
 Too many colours, then the website is over-designed and busy.
-The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression.This count is used to rank the websites accordingly.Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.  
+The system works by scrapping CSS file of different websites using webscrapper and from that CSS files it find and count the hexcodes of websites using regular expression. This count is used to rank the websites accordingly. Websites with too many and too few colours are ranked less and those with a specific count of colours are ranked high.  
   \subsection{Webscraping using Beautifulsoap}
   \begin{itemize}
- \item It is an HTTP request which is sent to the URL of webpage that we are to access.In return the server respont by returning HTML contents.Here a third party library is used for request.
- \item When we access the HTML contents,then we move to the task of parsing data.As the HTML data is nested one need a parser.
+ \item It is an HTTP request which is sent to the URL of webpage that we are to access. In return the server respont by returning HTML contents. Here a third party library is used for request.
+ \item When we access the HTML contents,then we move to the task of parsing data. As the HTML data is nested one need a parser.
  \item Many HTML parser libraries are available, but the most advanced is html5lib.
   \item Now, all we have to do is navigate to the Parse Tree we created, For this, we will use another third party Python Library Beautiful Soup. It is a Python library for extracting data from HTML and XML files.
   \end{itemize}
+	\subsection{Website Design Survey using PHP}
+	\begin{itemize}
+		\item In order to create a reasonable rank parameter, data was needed to justify and inform its use.
+		\item As such, a survey was created where the participant pool was large enough such that, an accurate aggregate of data could be extrapolated
+		\item The survey itself was created using php and was hosted as a website where participants would be shown screenshots of the main page of certain websites and then asked to rank from 1 to 5 stars.
+		\item After the survey was completed, the aggregate of the end rankings of the highest ranked websites were used as the rank parameter for the main website design ranker.
+	\end{itemize}	
 \chapter{TESTING}
 
 	Testing was done in several stages of this project. It was helpful to determine suitable language and library to collect data from different websites to find out ranking\\
@@ -182,21 +189,21 @@ The system works by scrapping CSS file of different websites using webscrapper a
 	\item A website template's 'style.css' file was downloaded and then used as subject to testing the colour counting code.
 	\item A website was created to have public ranking of various websites with a possible ranking of 1-5 (1 being the lowest, 5 the highest). This could then be used as ranking data for the program.
 \end{itemize}
-\chapter{RESULTS}
+	\subsection{Website Survey using PHP}
+	\begin{figure}[h]
+		\includegraphics[scale=.25]{surveyrank.png}
+	\end{figure}
+	\begin{itemize}
+		\item The survey was designed such that each person could only vote for each website once and then move on to the next one until it was complete.
+		\item Each participant was asked to vote based on their own subjective tastes. This would be counterintuitive if it were not for the large participation pool from where the aggregate data could be extrapolated.
+	\end{itemize}
+	\chapter{RESULTS}
 	\begin{itemize}
 		\item Number of colours counted:
 	\begin{figure}[h]
 		\includegraphics[scale=.3]{colourtest.png}
 	\end{figure}
 	\end{itemize}
-Compiled languages are languages typically processed by compilers, though theoretically any language can be compiled or interpreted. The important ones are:
-\begin{itemize}
-\item Ada
-\item C
-\item C++
-\item Fortran
-\item Java
-\end{itemize}
 
 \chapter{CONTRIBUTIONS}
 \begin{itemize}
