@@ -5,21 +5,23 @@
 \contentsline {section}{\numberline {1.2}Scope of Project}{1}% 
 \contentsline {chapter}{\numberline {2}RELATED WORK}{2}% 
 \contentsline {section}{\numberline {2.1}Google Page Layout Algorithm}{2}% 
-\contentsline {chapter}{\numberline {3}DESIGN and IMPLEMENTATION}{3}% 
-\contentsline {section}{\numberline {3.1}Design}{3}% 
-\contentsline {subsection}{\numberline {3.1.1}Algorithm}{3}% 
-\contentsline {subsection}{\numberline {3.1.2}System Requirements}{3}% 
-\contentsline {subsubsection}{\relax $\@@underline {\hbox {Software Requirements}}\mathsurround \z@ $\relax }{3}% 
-\contentsline {subsubsection}{\relax $\@@underline {\hbox {Hardware Requirements}}\mathsurround \z@ $\relax }{4}% 
-\contentsline {section}{\numberline {3.2}Implementation}{4}% 
-\contentsline {subsection}{\numberline {3.2.1}Data Flow Diagram - Level 0}{4}% 
-\contentsline {subsection}{\numberline {3.2.2}Webscraping using Beautifulsoap}{4}% 
-\contentsline {subsection}{\numberline {3.2.3}Website Design Survey using PHP}{5}% 
-\contentsline {chapter}{\numberline {4}TESTING}{6}% 
-\contentsline {subsection}{\numberline {4.0.1}Scrapping CSS codes from websites}{6}% 
-\contentsline {subsection}{\numberline {4.0.2}Website Survey using PHP}{6}% 
-\contentsline {chapter}{\numberline {5}RESULTS}{7}% 
-\contentsline {chapter}{\numberline {6}CONTRIBUTIONS}{8}% 
-\contentsline {chapter}{\numberline {7}CONCLUSION}{9}% 
-\contentsline {chapter}{Appendices}{11}% 
-\contentsline {chapter}{\numberline {A}Sample Code}{12}% 
+\contentsline {section}{\numberline {2.2}SEO Ranking}{3}% 
+\contentsline {section}{\numberline {2.3}CTA}{4}% 
+\contentsline {chapter}{\numberline {3}DESIGN and IMPLEMENTATION}{6}% 
+\contentsline {section}{\numberline {3.1}Design}{6}% 
+\contentsline {subsection}{\numberline {3.1.1}Algorithm}{7}% 
+\contentsline {subsection}{\numberline {3.1.2}System Requirements}{7}% 
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {Software Requirements}}\mathsurround \z@ $\relax }{7}% 
+\contentsline {subsubsection}{\relax $\@@underline {\hbox {Hardware Requirements}}\mathsurround \z@ $\relax }{7}% 
+\contentsline {section}{\numberline {3.2}Implementation}{7}% 
+\contentsline {subsection}{\numberline {3.2.1}Data Flow Diagram - Level 0}{7}% 
+\contentsline {subsection}{\numberline {3.2.2}Webscraping using Beautifulsoap}{8}% 
+\contentsline {subsection}{\numberline {3.2.3}Website Design Survey using PHP}{8}% 
+\contentsline {chapter}{\numberline {4}TESTING}{9}% 
+\contentsline {subsection}{\numberline {4.0.1}Scrapping CSS codes from websites}{9}% 
+\contentsline {subsection}{\numberline {4.0.2}Website Survey using PHP}{9}% 
+\contentsline {chapter}{\numberline {5}RESULTS}{10}% 
+\contentsline {chapter}{\numberline {6}CONTRIBUTIONS}{11}% 
+\contentsline {chapter}{\numberline {7}CONCLUSION}{12}% 
+\contentsline {chapter}{Appendices}{14}% 
+\contentsline {chapter}{\numberline {A}Sample Code}{15}% 
